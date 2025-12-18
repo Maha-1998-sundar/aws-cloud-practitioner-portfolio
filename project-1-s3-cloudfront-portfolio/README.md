@@ -1,7 +1,7 @@
 # Project 1 — Personal Portfolio Website Deployment (AWS S3 + CloudFront)
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud_Project-orange)
-![Category](https://img.shields.io/badge/Category-Deployment-blue)
+![Category](https://img.shields.io/badge/Category-Deployment-purple)
 ![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-007ACC)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
