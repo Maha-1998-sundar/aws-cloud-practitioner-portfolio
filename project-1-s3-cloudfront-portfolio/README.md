@@ -72,6 +72,22 @@ You will deploy a secure static website architecture that includes:
 ---
 ## 📂 Project Structure
 
+```
+project-1-s3-cloudfront-portfolio/
+│
+├── README.md
+├── architecture.md
+├── steps.md
+├── notes.md
+└── src/
+    └── index.html
+```
+
+📄 Website source file:  
+👉 [src/index.html](src/index.html)
+
+
+
 
 📄 Website source file:  
 👉 [src/index.html](src/index.html)
