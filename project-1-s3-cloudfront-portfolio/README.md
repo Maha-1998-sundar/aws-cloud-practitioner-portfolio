@@ -83,10 +83,8 @@ project-1-s3-cloudfront-portfolio/
 └── src/
     └── index.html
 
-
 📄 Website source file:  
 👉 [src/index.html](src/index.html)
-
 ---
 
 ## 🛠 Deployment Steps
