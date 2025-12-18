@@ -70,9 +70,10 @@ You will deploy a secure static website architecture that includes:
 | Origin Access Control (OAC) | Restricts S3 access to CloudFront only |
 
 ---
+
 ## 📂 Project Structure
 
-```
+```text
 project-1-s3-cloudfront-portfolio/
 │
 ├── README.md
@@ -81,12 +82,6 @@ project-1-s3-cloudfront-portfolio/
 ├── notes.md
 └── src/
     └── index.html
-```
-
-📄 Website source file:  
-👉 [src/index.html](src/index.html)
-
-
 
 
 📄 Website source file:  
