@@ -2,9 +2,11 @@
 
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 ![Git](https://img.shields.io/badge/Git-Version_Control-red)
-![Level](https://img.shields.io/badge/Level-Beginner_to_Intermediate-blue)
+![Category](https://img.shields.io/badge/Category-Git_&_Linux-purple)
+![Level](https://img.shields.io/badge/Level-Beginner_to_Intermediate-007ACC)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 ---
 
