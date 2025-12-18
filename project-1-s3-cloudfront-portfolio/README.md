@@ -24,27 +24,28 @@
 
 ## 📌 Overview
 
-This project demonstrates how to deploy a **secure static personal portfolio website**
+This project demonstrates how to deploy a **static personal portfolio website**
 using **Amazon S3** and **Amazon CloudFront**.
 
-The solution follows **AWS best practices** by keeping the S3 bucket private and
-serving content through CloudFront using **Origin Access Control (OAC)** with HTTPS enabled.
+The website content is stored in a **private S3 bucket** and securely delivered
+to users through **CloudFront using Origin Access Control (OAC)**.
 
-It reflects core **AWS Cloud Practitioner competencies**:
-**Storage, Content Delivery, Security, IAM, and Networking**.
+This project reflects key **AWS Cloud Practitioner concepts**:
+**Storage, Content Delivery, Security, and Networking**.
 
 ---
 
 ## 🏗 Architecture
 
-Refer to the architecture file here 👉 `architecture.md`
+📄 **Architecture explanation:**  
+👉 [architecture.md](architecture.md)
 
 **High-Level Flow:**
 
-1. User accesses the website via browser
-2. Request is served through CloudFront over HTTPS
-3. CloudFront uses Origin Access Control (OAC)
-4. Content is securely fetched from a private S3 bucket
+1. User accesses the website through a browser  
+2. Request is served by **Amazon CloudFront** over HTTPS  
+3. CloudFront uses **Origin Access Control (OAC)**  
+4. Content is securely fetched from a **private S3 bucket**
 
 ---
 
@@ -53,41 +54,50 @@ Refer to the architecture file here 👉 `architecture.md`
 You will deploy a secure static website architecture that includes:
 
 - 🌐 Static website hosted in **Amazon S3**
-- 🚀 Global content delivery using **CloudFront**
+- 🚀 Global content delivery using **Amazon CloudFront**
 - 🔐 Secure access using **Origin Access Control (OAC)**
-- 🔒 Private S3 bucket (no public access)
-- 🔑 HTTPS enforced for all users
+- 🚫 No public access to the S3 bucket
+- 🔒 HTTPS enforced by CloudFront (default CloudFront certificate)
 
 ---
 
 ## ☁️ AWS Services Used
 
 | Service | Purpose |
-|------|--------|
+|-------|--------|
 | Amazon S3 | Stores static website files |
 | Amazon CloudFront | CDN for fast & secure delivery |
-| Origin Access Control (OAC) | Secure CloudFront → S3 access |
-| AWS IAM | Permission management |
-| AWS Certificate Manager | HTTPS support via CloudFront |
+| Origin Access Control (OAC) | Restricts S3 access to CloudFront only |
 
 ---
 
 ## 📂 Project Structure
 
+project-1-s3-cloudfront-portfolio/
+├── README.md
+├── architecture.md
+├── steps.md
+├── notes.md
+└── src/
+    └── index.html
+
+
+📄 Website source file:  
+👉 [src/index.html](src/index.html)
+
 ---
 
 ## 🛠 Deployment Steps
 
-Detailed step-by-step deployment guide is available here 👉  
-📄 **steps.md**
+📘 **Complete step-by-step AWS Console guide:**  
+👉 [steps.md](steps.md)
 
-The deployment includes:
+This includes:
 - Creating a private S3 bucket
 - Uploading static website files
-- Creating CloudFront distribution
-- Configuring Origin Access Control
-- Enforcing HTTPS
-- Verifying website access
+- Creating a CloudFront distribution
+- Configuring Origin Access Control (OAC)
+- Verifying secure website access
 
 ---
 
@@ -95,19 +105,17 @@ The deployment includes:
 
 - Static portfolio website deployed on AWS
 - Private S3 bucket (no public access)
-- CloudFront distribution with HTTPS
-- Secure access using OAC
-- Live website accessible via CloudFront URL
+- CloudFront distribution with OAC
+- Secure website accessible via CloudFront URL
 
 ---
 
 ## 🔐 Security Best Practices
 
-- No public access enabled on S3 bucket
-- CloudFront is the only allowed origin
-- Requests signed using OAC
-- HTTPS enforced for all viewers
-- Least-privilege IAM permissions applied
+- S3 bucket blocks all public access
+- Website content served only through CloudFront
+- Origin Access Control prevents direct S3 access
+- HTTPS enforced for all users
 
 ---
 
@@ -116,9 +124,8 @@ The deployment includes:
 Planned improvements for next versions:
 
 - Add custom domain using Route 53
-- Enable HTTPS with custom ACM certificate
-- Add CI/CD pipeline for automated deployments
-- Improve caching strategies
+- Add custom SSL certificate using ACM
+- CI/CD pipeline for automated deployments
 - Infrastructure as Code using Terraform
 
 ---
