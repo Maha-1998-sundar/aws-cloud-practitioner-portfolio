@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website Deployment (AWS S3 + CloudFront)</title>
+    <title>Mahalakshmi Sundara Mahalingam | AWS Cloud Portfolio</title>
 
     <style>
         body {
@@ -11,33 +11,45 @@
             background-color: #f4f6f8;
             margin: 0;
             padding: 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #232f3e;
-        }
-        h2 {
-            color: #444;
-            margin-top: 30px;
-        }
-        p {
-            line-height: 1.6;
             color: #333;
         }
+        header {
+            background-color: #232f3e;
+            color: #ffffff;
+            padding: 25px;
+            text-align: center;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+        h1, h2 {
+            color: #232f3e;
+        }
         ul {
-            margin-left: 20px;
+            line-height: 1.8;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px 10px 0 0;
+            padding: 10px 18px;
+            background-color: #ff9900;
+            color: #000;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #e68a00;
         }
         footer {
-            margin-top: 40px;
             text-align: center;
-            color: #777;
+            padding: 15px;
+            color: #666;
             font-size: 14px;
         }
     </style>
@@ -45,41 +57,53 @@
 
 <body>
 
-    <div class="container">
-        <h1>Personal Portfolio Website Deployment (AWS S3 + CloudFront)</h1>
+<header>
+    <h1>Mahalakshmi Sundara Mahalingam</h1>
+    <p>AWS Certified Cloud Practitioner</p>
+</header>
 
-        <p>
-            This project demonstrates the deployment of a static personal portfolio website
-            using <strong>Amazon S3</strong> and <strong>Amazon CloudFront</strong>.
-            The solution is designed to be secure, scalable, and cost-efficient.
-        </p>
+<section>
+    <h2>👋 About Me</h2>
+    <p>
+        I am an AWS Certified Cloud Practitioner with hands-on experience in deploying
+        secure and scalable cloud solutions using Amazon Web Services.
+        This portfolio demonstrates real-world cloud concepts such as
+        secure static website hosting, content delivery, and AWS security best practices.
+    </p>
+</section>
 
-        <h2>Architecture Overview</h2>
-        <ul>
-            <li>Amazon S3 – Private bucket for static website files</li>
-            <li>Amazon CloudFront – Content Delivery Network (CDN)</li>
-            <li>Origin Access Control (OAC) – Secure access between CloudFront and S3</li>
-            <li>HTTPS enforced for secure communication</li>
-        </ul>
+<section>
+    <h2>☁️ Project: Static Portfolio Website (AWS S3 + CloudFront)</h2>
+    <ul>
+        <li>Hosted static website files in a <strong>private Amazon S3 bucket</strong></li>
+        <li>Delivered content globally using <strong>Amazon CloudFront</strong></li>
+        <li>Secured S3 access using <strong>Origin Access Control (OAC)</strong></li>
+        <li>Enforced <strong>HTTPS</strong> for all users</li>
+        <li>Served static assets including <strong>HTML and PDF resume</strong></li>
+    </ul>
 
-        <h2>Key Features</h2>
-        <ul>
-            <li>Private S3 bucket (no public access)</li>
-            <li>Secure delivery using CloudFront</li>
-            <li>Low latency and high availability</li>
-            <li>Industry best practices followed</li>
-        </ul>
+    <a class="btn" href="https://github.com/Maha-1998-sundar/aws-cloud-practitioner-portfolio" target="_blank">
+        View GitHub Repository
+    </a>
 
-        <h2>Purpose of This Project</h2>
-        <p>
-            This project was created as part of my AWS Cloud learning journey to gain
-            hands-on experience with real-world cloud infrastructure and security concepts.
-        </p>
+    <a class="btn" href="assets/MAHALAKSHMI_AWS_CCP_RESUME.pdf" target="_blank">
+        View Resume (PDF)
+    </a>
+</section>
 
-        <footer>
-            © 2025 | AWS Cloud Practitioner Portfolio
-        </footer>
-    </div>
+<section>
+    <h2>🛠 AWS Services Used</h2>
+    <ul>
+        <li>Amazon S3</li>
+        <li>Amazon CloudFront</li>
+        <li>AWS IAM</li>
+        <li>AWS Certificate Manager</li>
+    </ul>
+</section>
+
+<footer>
+    © 2025 Mahalakshmi Sundara Mahalingam | Deployed on AWS S3 & CloudFront
+</footer>
 
 </body>
 </html>
