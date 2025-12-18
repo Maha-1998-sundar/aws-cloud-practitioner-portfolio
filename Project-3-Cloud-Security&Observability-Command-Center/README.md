@@ -1,130 +1,173 @@
-# Project 3 — Cloud Security & Observability Command Center  
-(IAM + Lambda + EventBridge + DynamoDB + CloudWatch)
+# Project 3 — Cloud Security & Observability Command Center
 
-![AWS](https://img.shields.io/badge/AWS-Serverless_Security-orange)
-![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-blue)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Tier](https://img.shields.io/badge/Cost-100%25_Free_Tier-success)
+AWS Cloud Project | Level: Cloud Practitioner  
+Status: Completed | License: MIT
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [What You Will Build](#what-you-will-build)
+- [AWS Services Used](#aws-services-used)
+- [Project Structure](#project-structure)
+- [Deployment Steps](#deployment-steps)
+- [Key Deliverables](#key-deliverables)
+- [Security Best Practices](#security-best-practices)
+- [Output Screenshots](#output-screenshots)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
+- [Author](#author)
 
 ---
 
 ## 📌 Overview
 
-This project implements a **Cloud Security & Observability Command Center** using AWS serverless services.
-It provides **centralized security visibility, automated IAM audits, website/API monitoring, and real-time alerting**.
+This project implements a **Cloud Security & Observability Command Center** using AWS native services to monitor application health, detect security violations, and store audit results for analysis.
 
-The solution continuously audits IAM users, tracks inactivity and old access keys, monitors website/API health,
-and visualizes everything in a **single CloudWatch dashboard**.
+The solution provides:
+- Real-time monitoring via CloudWatch Dashboards
+- Automated checks using AWS Lambda
+- Alerting through CloudWatch Alarms
+- Persistent audit storage using DynamoDB
 
-This project is designed to be **enterprise-style**, **fully serverless**, and **100% AWS Free Tier compliant**.
+This project demonstrates hands-on experience with **monitoring, alerting, automation, and security observability** in AWS.
 
 ---
 
 ## 🏗 Architecture
 
-📄 Detailed architecture explanation:  
-👉 [`architecture.md`](architecture.md)
+**High-level flow:**
 
-### High-Level Flow
-1. EventBridge schedules trigger Lambda functions
-2. IAM Security Auditor scans IAM users and access keys
-3. Website Monitor checks uptime and latency
-4. Results are stored in DynamoDB
-5. Metrics and logs are sent to CloudWatch
-6. Alarms trigger SNS email notifications
-7. CloudWatch Dashboard provides centralized visibility
+1. CloudWatch Metrics and Logs monitor application and security events
+2. Event-driven AWS Lambda functions process monitoring data
+3. Lambda writes audit results to DynamoDB
+4. CloudWatch Alarms trigger alerts for anomalies
+5. Centralized CloudWatch Dashboard provides visibility
+
+📄 Detailed architecture explanation:  
+👉 `architecture.md`
 
 ---
 
 ## 🚀 What You Will Build
 
-You will build a **centralized cloud monitoring and security system** that includes:
-
-### 🔐 Security (IAM Audit)
-- Audits IAM users and access keys
-- Detects inactive users and old access keys
-- Stores audit records in DynamoDB
-- Sends alerts when violations are detected
-
-### 📊 Monitoring & Observability
-- Monitors website/API uptime and latency
-- Publishes custom CloudWatch metrics
-- Triggers alarms on failures or high latency
-- Visualizes data in a CloudWatch dashboard
+- Centralized CloudWatch monitoring dashboard
+- Automated Lambda-based security and health checks
+- CloudWatch Alarms for latency, downtime, and IAM violations
+- DynamoDB table for storing audit and security results
+- End-to-end observability command center
 
 ---
 
 ## ☁️ AWS Services Used
 
 | Service | Purpose |
-|------|--------|
-| AWS Lambda | Serverless audit & monitoring logic |
-| Amazon IAM | Security audit target |
-| Amazon DynamoDB | Stores audit results |
-| Amazon EventBridge | Scheduled automation |
-| Amazon CloudWatch | Metrics, logs, dashboards, alarms |
-| Amazon SNS | Email alerts |
+|-------|--------|
+| Amazon CloudWatch | Monitoring, dashboards, logs, alarms |
+| AWS Lambda | Automated security & health checks |
+| Amazon DynamoDB | Stores audit and violation records |
+| Amazon EventBridge | Event-driven automation |
+| AWS IAM | Secure permissions and access control |
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 ```
 project-3-cloud-security-observability/
 ├── README.md
 ├── architecture.md
 ├── steps.md
-└── notes.md
+├── notes.md
+└── screenshots/
+├── dashboards/
+│ ├── screenshotscloudwatch-dashboard-1.png
+│ └── screenshotscloudwatch-dashboard-2.png
+├── lambda-logs/
+│ ├── screenshotslambda-logs.png
+│ └── screenshotslambda-executionlogs.png
+├── cloudwatch-alarms/
+│ └── screenshotscloudwatch-alarms.png
+└── dynamodb-audit-records/
+└── screenshotsdynamodb-audit-records.png
 ```
 
 ---
 
-## ⚙ Deployment Steps
+## 🛠 Deployment Steps
 
-📘 Complete step-by-step AWS Console guide:  
-👉 [`steps.md`](steps.md)
+📄 Complete step-by-step AWS Console guide:  
+👉 `steps.md`
 
-Includes:
-- SNS topics and email subscriptions
-- DynamoDB table creation
-- IAM role with least privilege
-- Two Lambda functions (Security Audit & Website Monitor)
-- EventBridge schedules
-- CloudWatch alarms and dashboard
+This includes:
+- Creating CloudWatch dashboards and metrics
+- Configuring Lambda functions
+- Setting up EventBridge triggers
+- Creating CloudWatch alarms
+- Creating DynamoDB tables for audit storage
+- Validating logs, alarms, and metrics
 
 ---
 
 ## 📦 Key Deliverables
 
-- Automated IAM security audit
-- Website/API uptime & latency monitoring
-- Centralized CloudWatch dashboard
-- Real-time email alerts via SNS
-- Fully serverless & Free Tier compliant solution
+- CloudWatch command center dashboard
+- Automated Lambda monitoring functions
+- Active CloudWatch alarms
+- DynamoDB audit records
+- End-to-end security observability workflow
 
 ---
 
 ## 🔐 Security Best Practices
 
-- IAM least-privilege execution role
-- Automated daily security audits
-- No servers or long-running resources
-- Centralized logging and monitoring
-- Alert-driven incident visibility
+- Least-privilege IAM roles for Lambda
+- No hardcoded credentials
+- Event-driven automation (no manual execution)
+- Monitoring and alerting for abnormal behavior
+- Audit data persisted securely in DynamoDB
+
+---
+
+## 📸 Output Screenshots
+
+### 📊 CloudWatch Dashboards
+![CloudWatch Dashboard 1](screenshots/dashboards/screenshotscloudwatch-dashboard-1.png)
+![CloudWatch Dashboard 2](screenshots/dashboards/screenshotscloudwatch-dashboard-2.png)
+
+---
+
+### 🧠 Lambda Execution Logs
+![Lambda Log Streams](screenshots/lambda-logs/screenshotslambda-logs.png)
+![Lambda Execution Logs](screenshots/lambda-logs/screenshotslambda-executionlogs.png)
+
+---
+
+### 🚨 CloudWatch Alarms
+![CloudWatch Alarms](screenshots/cloudwatch-alarms/screenshotscloudwatch-alarms.png)
+
+---
+
+### 🗄 DynamoDB Audit Records
+![DynamoDB Audit Records](screenshots/dynamodb-audit-records/screenshotsdynamodb-audit-records.png)
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Add AWS Config integration
-- Add GuardDuty findings ingestion
-- Multi-account monitoring
-- Infrastructure as Code (Terraform)
+- SNS notifications for alarms
+- Advanced security rules and anomaly detection
+- CI/CD automation for Lambda deployments
+- Infrastructure as Code (Terraform or CloudFormation)
+- Multi-account security monitoring
 
 ---
 
 ## 📜 License
 
-MIT License — Free to use for learning and portfolio purposes.
+This project is licensed under the **MIT License**.  
+Free to use for learning and portfolio purposes.
 
 ---
 
@@ -132,5 +175,6 @@ MIT License — Free to use for learning and portfolio purposes.
 
 **Mahalakshmi Sundara Mahalingam**  
 AWS Certified Cloud Practitioner
+
 
 
