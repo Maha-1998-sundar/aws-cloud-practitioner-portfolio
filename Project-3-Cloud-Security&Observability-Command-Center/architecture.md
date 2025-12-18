@@ -1,5 +1,5 @@
 # Project 3 — Architecture
-
+```
 EventBridge (Scheduler)
         ↓
 AWS Lambda Functions
@@ -17,4 +17,4 @@ SNS (Email Alerts)
         ↓
 CloudWatch Dashboard
 (Central Command Center)
-
+```
