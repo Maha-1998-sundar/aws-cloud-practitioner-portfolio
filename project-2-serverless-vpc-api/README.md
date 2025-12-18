@@ -7,6 +7,23 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [Live API](#-live-api)
+- [Overview](#-overview)
+- [Architecture](#-architecture)
+- [What You Will Build](#-what-you-will-build)
+- [AWS Services Used](#-aws-services-used)
+- [Project Structure](#-project-structure)
+- [Deployment Steps](#-deployment-steps)
+- [Key Deliverables](#-key-deliverables)
+- [Security Best Practices](#-security-best-practices)
+- [Future Enhancements](#-future-enhancements)
+- [License](#-license)
+- [Author](#-author)
+
+---
+
 ## 🌐 Live API
 🔗 https://bn2nb9c6n7.execute-api.us-east-1.amazonaws.com
 
@@ -65,7 +82,6 @@ You will build a **production-style serverless API** that includes:
 ---
 
 ## 📁 Project Structure
-
 ```
 project-2-serverless-vpc-api/
 ├── README.md
@@ -130,6 +146,4 @@ MIT License — Free to use for learning and portfolio purposes.
 
 **Mahalakshmi Sundara Mahalingam**  
 AWS Certified Cloud Practitioner
-
-
 
