@@ -40,14 +40,14 @@ This project demonstrates hands-on experience with **monitoring, alerting, autom
 
 **High-level flow:**
 
-1. CloudWatch Metrics and Logs monitor application and security events
-2. Event-driven AWS Lambda functions process monitoring data
-3. Lambda writes audit results to DynamoDB
-4. CloudWatch Alarms trigger alerts for anomalies
-5. Centralized CloudWatch Dashboard provides visibility
+1. CloudWatch Metrics and Logs monitor application and security events  
+2. Event-driven AWS Lambda functions process monitoring data  
+3. Lambda writes audit results to DynamoDB  
+4. CloudWatch Alarms trigger alerts for anomalies  
+5. Centralized CloudWatch Dashboard provides visibility  
 
 📄 Detailed architecture explanation:  
-👉 `architecture.md`
+👉 [architecture.md](architecture.md)
 
 ---
 
@@ -74,23 +74,24 @@ This project demonstrates hands-on experience with **monitoring, alerting, autom
 ---
 
 ## 📂 Project Structure
-```
+
+```text
 project-3-cloud-security-observability/
 ├── README.md
 ├── architecture.md
 ├── steps.md
 ├── notes.md
 └── screenshots/
-├── dashboards/
-│ ├── screenshotscloudwatch-dashboard-1.png
-│ └── screenshotscloudwatch-dashboard-2.png
-├── lambda-logs/
-│ ├── screenshotslambda-logs.png
-│ └── screenshotslambda-executionlogs.png
-├── cloudwatch-alarms/
-│ └── screenshotscloudwatch-alarms.png
-└── dynamodb-audit-records/
-└── screenshotsdynamodb-audit-records.png
+    ├── dashboards/
+    │   ├── screenshotscloudwatch-dashboard-1.png
+    │   └── screenshotscloudwatch-dashboard-2.png
+    ├── lambda-logs/
+    │   ├── screenshotslambda-logs.png
+    │   └── screenshotslambda-executionlogs.png
+    ├── cloudwatch-alarms/
+    │   └── screenshotscloudwatch-alarms.png
+    └── dynamodb-audit-records/
+        └── screenshotsdynamodb-audit-records.png
 ```
 
 ---
@@ -98,7 +99,7 @@ project-3-cloud-security-observability/
 ## 🛠 Deployment Steps
 
 📄 Complete step-by-step AWS Console guide:  
-👉 `steps.md`
+👉 [steps.md](steps.md)
 
 This includes:
 - Creating CloudWatch dashboards and metrics
@@ -133,13 +134,13 @@ This includes:
 ## 📸 Output Screenshots
 
 ### 📊 CloudWatch Dashboards
-![CloudWatch Dashboard 1](screenshots/dashboards/screenshotscloudwatch-dashboard-1.png)
+![CloudWatch Dashboard 1](screenshots/dashboards/screenshotscloudwatch-dashboard-1.png)  
 ![CloudWatch Dashboard 2](screenshots/dashboards/screenshotscloudwatch-dashboard-2.png)
 
 ---
 
 ### 🧠 Lambda Execution Logs
-![Lambda Log Streams](screenshots/lambda-logs/screenshotslambda-logs.png)
+![Lambda Log Streams](screenshots/lambda-logs/screenshotslambda-logs.png)  
 ![Lambda Execution Logs](screenshots/lambda-logs/screenshotslambda-executionlogs.png)
 
 ---
@@ -175,6 +176,3 @@ Free to use for learning and portfolio purposes.
 
 **Mahalakshmi Sundara Mahalingam**  
 AWS Certified Cloud Practitioner
-
-
-
