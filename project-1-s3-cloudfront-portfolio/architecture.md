@@ -9,4 +9,3 @@ Origin Access Control (OAC)
 Private Amazon S3 Bucket
         ↓
 Static Website Files (HTML, Static Assets including PDF Resume)
-``
