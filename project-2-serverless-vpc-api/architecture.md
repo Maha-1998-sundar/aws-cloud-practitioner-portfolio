@@ -1,5 +1,5 @@
 # Project 2 — Architecture
-
+```
 Client (Browser / App)
         ↓
 Amazon API Gateway (Public HTTPS)
@@ -9,6 +9,8 @@ AWS Lambda
         ↓
 CloudWatch Logs
 (via VPC Interface Endpoints)
+```
+---
 
 VPC Components:
 - Custom VPC (10.0.0.0/16)
@@ -17,3 +19,4 @@ VPC Components:
 - No NAT Gateway
 - Interface endpoints for CloudWatch
 
+---
