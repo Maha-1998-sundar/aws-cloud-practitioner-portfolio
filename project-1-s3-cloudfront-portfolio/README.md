@@ -7,6 +7,11 @@
 
 ---
 
+## 🌐 Live Demo
+🔗 **https://dts8ovvgzp3vw.cloudfront.net/**
+
+---
+
 ## 📑 Table of Contents
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -24,49 +29,46 @@
 
 ## 📌 Overview
 
-This project demonstrates how to deploy a **static personal portfolio website**
-using **Amazon S3** and **Amazon CloudFront**.
+This project demonstrates how to deploy a **secure static personal portfolio website** using **Amazon S3** and **Amazon CloudFront**.
 
-The website content is stored in a **private S3 bucket** and securely delivered
-to users through **CloudFront using Origin Access Control (OAC)**.
+The website content is stored in a **private S3 bucket** and securely delivered to users through **CloudFront using Origin Access Control (OAC)**, ensuring that S3 objects are never publicly accessible.
 
-This project reflects key **AWS Cloud Practitioner concepts**:
-**Storage, Content Delivery, Security, and Networking**.
+This project reflects key **AWS Cloud Practitioner concepts**, including **storage, content delivery, security, and networking**, and follows AWS-recommended best practices for static website hosting.
 
 ---
 
 ## 🏗 Architecture
 
-📄 **Architecture explanation:**  
-👉 [architecture.md](architecture.md)
+📄 Detailed architecture explanation:  
+👉 [`architecture.md`](architecture.md)
 
-**High-Level Flow:**
-
-1. User accesses the website through a browser  
-2. Request is served by **Amazon CloudFront** over HTTPS  
-3. CloudFront uses **Origin Access Control (OAC)**  
-4. Content is securely fetched from a **private S3 bucket**
+### High-Level Flow:
+1. User accesses the website via a web browser
+2. Request is routed through **Amazon CloudFront** over HTTPS
+3. CloudFront uses **Origin Access Control (OAC)** to authenticate with S3
+4. Content is securely retrieved from a **private Amazon S3 bucket**
 
 ---
 
 ## 🚀 What You Will Build
 
-You will deploy a secure static website architecture that includes:
+You will deploy a **production-style secure static website architecture** that includes:
 
 - 🌐 Static website hosted in **Amazon S3**
 - 🚀 Global content delivery using **Amazon CloudFront**
 - 🔐 Secure access using **Origin Access Control (OAC)**
 - 🚫 No public access to the S3 bucket
 - 🔒 HTTPS enforced by CloudFront (default CloudFront certificate)
+- 📄 Secure delivery of static assets including **HTML and PDF resume**
 
 ---
 
 ## ☁️ AWS Services Used
 
 | Service | Purpose |
-|-------|--------|
+|------|--------|
 | Amazon S3 | Stores static website files |
-| Amazon CloudFront | CDN for fast & secure delivery |
+| Amazon CloudFront | CDN for fast & secure content delivery |
 | Origin Access Control (OAC) | Restricts S3 access to CloudFront only |
 
 ---
@@ -88,50 +90,52 @@ project-1-s3-cloudfront-portfolio/
 
 ---
 
-## 🛠 Deployment Steps
+## ⚙ Deployment Steps
 
-📘 **Complete step-by-step AWS Console guide:**  
-👉 [steps.md](steps.md)
+📘 Complete step-by-step AWS Console guide:  
+👉 [`steps.md`](steps.md)
 
 This includes:
-- Creating a private S3 bucket
+- Creating a **private S3 bucket**
 - Uploading static website files
-- Creating a CloudFront distribution
-- Configuring Origin Access Control (OAC)
+- Creating a **CloudFront distribution**
+- Configuring **Origin Access Control (OAC)**
 - Verifying secure website access
+
+🔗 **Deployed Website:** https://dts8ovvgzp3vw.cloudfront.net/
 
 ---
 
 ## 📦 Key Deliverables
 
-- Static portfolio website deployed on AWS
-- Private S3 bucket (no public access)
-- CloudFront distribution with OAC
-- Secure website accessible via CloudFront URL
+- Static personal portfolio website deployed on AWS
+- Private S3 bucket with no public access
+- CloudFront distribution configured with OAC
+- Secure website accessible via CloudFront URL over HTTPS
 
 ---
 
 ## 🔐 Security Best Practices
 
-- S3 bucket blocks all public access
-- Website content served only through CloudFront
-- Origin Access Control prevents direct S3 access
+- S3 bucket blocks **all public access**
+- Website content served **only through CloudFront**
+- Origin Access Control prevents **direct S3 access**
 - HTTPS enforced for all users
+- AWS console-generated policies used to avoid misconfiguration
 
 ---
 
 ## 🔮 Future Enhancements
 
-Planned improvements for next versions:
-
-- Add custom domain using Route 53
-- Add custom SSL certificate using ACM
-- CI/CD pipeline for automated deployments
-- Infrastructure as Code using Terraform
+Planned improvements for future versions:
+- Add custom domain using **Amazon Route 53**
+- Add custom SSL certificate using **AWS Certificate Manager (ACM)**
+- Implement CI/CD pipeline for automated deployments
+- Infrastructure as Code using **Terraform**
 
 ---
 
-## 📄 License
+## 📜 License
 
 This project is licensed under the **MIT License**.  
 Free to use for learning and portfolio purposes.
@@ -142,6 +146,5 @@ Free to use for learning and portfolio purposes.
 
 **Mahalakshmi Sundara Mahalingam**  
 AWS Certified Cloud Practitioner
-
 
 
