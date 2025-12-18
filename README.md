@@ -50,10 +50,11 @@ https://www.linkedin.com/in/mahalakshmi-profile
 
 ---
 
-## 🚀 Project 1 — Personal Portfolio Website Deployment (AWS S3 + CloudFront)
+# Project 1 — Personal Portfolio Website Deployment (AWS S3 + CloudFront)
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud_Project-orange)
-![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-blue)
+![Category](https://img.shields.io/badge/Category-Deployment-purple)
+![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-007ACC)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
@@ -72,12 +73,14 @@ for secure, scalable, and cost-efficient content delivery.
 
 ---
 
-## ⚙ Project 2 — Serverless VPC API (Private Lambda + API Gateway)
+# Project 2 — Serverless VPC API (Private Lambda + API Gateway)
 
 ![AWS](https://img.shields.io/badge/AWS-Serverless_Project-orange)
-![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-blue)
+![Category](https://img.shields.io/badge/Category-Serverless-purple)
+![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-007ACC)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 **Description**  
 Built a **secure serverless API** where AWS Lambda runs inside **private VPC subnets**  
@@ -94,12 +97,14 @@ and is securely exposed through API Gateway.
 
 ---
 
-## 🛡 Project 3 — Cloud Security & Observability Command Center
+# Project 3 — Cloud Security & Observability Command Center
 
-![AWS](https://img.shields.io/badge/AWS-Security_%26_Monitoring-orange)
-![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-blue)
+![AWS](https://img.shields.io/badge/AWS-Cloud_Project-orange)
+![Category](https://img.shields.io/badge/Category-Security_&_Observability-purple)
+![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-007ACC)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 **Description**  
 Implemented a **Cloud Security & Observability Command Center** to monitor system health,  
@@ -116,13 +121,15 @@ detect security anomalies, and store audit results.
 
 ---
 
-## 🐧 Project 4 — Linux Notes Tracker with Git & GitHub
+# Project 4 — Linux Notes Tracker with Git & GitHub
 
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 ![Git](https://img.shields.io/badge/Git-Version_Control-red)
-![Level](https://img.shields.io/badge/Level-Beginner_to_Intermediate-blue)
+![Category](https://img.shields.io/badge/Category-Git_&_Linux-purple)
+![Level](https://img.shields.io/badge/Level-Beginner_to_Intermediate-007ACC)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 **Description**  
 Created a **Linux documentation project** to track Linux commands and concepts  
