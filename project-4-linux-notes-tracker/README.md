@@ -57,7 +57,8 @@ You will build a **Linux Notes Tracker** that includes:
 ---
 
 ## 📁 Project Structure
-```
+
+```text
 project-4-linux-notes-tracker/
 ├── README.md
 ├── architecture.md
@@ -65,9 +66,21 @@ project-4-linux-notes-tracker/
 └── notes.md
 ```
 
-- **README.md** – Project overview and documentation
-- **notes.md** – Linux concepts and explanations
-- **commands.md** – Common Linux commands with usage examples
+---
+
+## 📄 Documentation Pages
+
+- 📘 **[README.md](./README.md)**  
+  Project overview and documentation index.
+
+- 🏗️ **[architecture.md](./architecture.md)**  
+  Repository design, documentation workflow, and version-control structure.
+
+- 💻 **[commands.md](./commands.md)**  
+  Common Linux commands with explanations and usage examples.
+
+- 📝 **[notes.md](./notes.md)**  
+  Linux concepts, theory notes, and learning references.
 
 ---
 
@@ -75,12 +88,12 @@ project-4-linux-notes-tracker/
 
 The following Git operations were practiced in this project:
 
-- `git status` – Check working tree status
-- `git add` – Stage changes
-- `git commit` – Save changes locally
-- `git push` – Push updates to GitHub
-- `git pull` – Sync changes from remote repository
-- `git clone` – Clone repository to local system
+- `git status` – Check working tree status  
+- `git add` – Stage changes  
+- `git commit` – Save changes locally  
+- `git push` – Push updates to GitHub  
+- `git pull` – Sync changes from remote repository  
+- `git clone` – Clone repository to local system  
 
 This workflow reflects **industry-standard Git usage** in professional environments.
 
@@ -88,29 +101,29 @@ This workflow reflects **industry-standard Git usage** in professional environme
 
 ## 📦 Key Deliverables
 
-- Linux command reference documentation
-- Markdown-based technical notes
-- Git-managed project repository
-- GitHub-hosted version-controlled documentation
-- Clean and readable project structure
+- Linux command reference documentation  
+- Markdown-based technical notes  
+- Git-managed project repository  
+- GitHub-hosted version-controlled documentation  
+- Clean and readable project structure  
 
 ---
 
 ## 📚 Learning Outcomes
 
-- Improved Linux command-line proficiency
-- Practical experience with Git and GitHub
-- Understanding of documentation-driven development
-- Hands-on exposure to real-world version control workflows
+- Improved Linux command-line proficiency  
+- Practical experience with Git and GitHub  
+- Understanding of documentation-driven development  
+- Hands-on exposure to real-world version control workflows  
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Add shell scripting examples
-- Include Linux troubleshooting scenarios
-- Expand notes with advanced Linux topics
-- Automate documentation updates using CI pipelines
+- Add shell scripting examples  
+- Include Linux troubleshooting scenarios  
+- Expand notes with advanced Linux topics  
+- Automate documentation updates using CI pipelines  
 
 ---
 
@@ -124,4 +137,3 @@ MIT License — Free to use for learning and portfolio purposes.
 
 **Mahalakshmi Sundara Mahalingam**  
 AWS Certified Cloud Practitioner
-
