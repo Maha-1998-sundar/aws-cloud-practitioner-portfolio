@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Deployment (AWS S3 + CloudFront)</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #232f3e;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Personal Portfolio Website Deployment (AWS S3 + CloudFront)</h1>
+
+        <p>
+            This project demonstrates the deployment of a static personal portfolio website
+            using <strong>Amazon S3</strong> and <strong>Amazon CloudFront</strong>.
+            The solution is designed to be secure, scalable, and cost-efficient.
+        </p>
+
+        <h2>Architecture Overview</h2>
+        <ul>
+            <li>Amazon S3 – Private bucket for static website files</li>
+            <li>Amazon CloudFront – Content Delivery Network (CDN)</li>
+            <li>Origin Access Control (OAC) – Secure access between CloudFront and S3</li>
+            <li>HTTPS enforced for secure communication</li>
+        </ul>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Private S3 bucket (no public access)</li>
+            <li>Secure delivery using CloudFront</li>
+            <li>Low latency and high availability</li>
+            <li>Industry best practices followed</li>
+        </ul>
+
+        <h2>Purpose of This Project</h2>
+        <p>
+            This project was created as part of my AWS Cloud learning journey to gain
+            hands-on experience with real-world cloud infrastructure and security concepts.
+        </p>
+
+        <footer>
+            © 2025 | AWS Cloud Practitioner Portfolio
+        </footer>
+    </div>
+
+</body>
+</html>
