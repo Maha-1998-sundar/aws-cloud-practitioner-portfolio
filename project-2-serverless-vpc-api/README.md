@@ -8,7 +8,7 @@
 ---
 
 ## 🌐 Live API
-🔗 https://<your-api-id>.execute-api.<region>.amazonaws.com/
+🔗 https://bn2nb9c6n7.execute-api.us-east-1.amazonaws.com
 
 ---
 
@@ -66,13 +66,13 @@ You will build a **production-style serverless API** that includes:
 
 ## 📁 Project Structure
 
-'''text
+```
 project-2-serverless-vpc-api/
 ├── README.md
 ├── architecture.md
 ├── steps.md
 └── notes.md
-'''
+```
 
 ---
 
