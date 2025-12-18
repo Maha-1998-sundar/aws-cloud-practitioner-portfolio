@@ -1,7 +1,7 @@
 # Project 2 — Serverless VPC API (Private Lambda + API Gateway)
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud_Project-orange)
-![Category](https://img.shields.io/badge/Category-Serverless-blue)
+![Category](https://img.shields.io/badge/Category-Serverless-purple)
 ![Level](https://img.shields.io/badge/Level-Cloud_Practitioner-007ACC)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
