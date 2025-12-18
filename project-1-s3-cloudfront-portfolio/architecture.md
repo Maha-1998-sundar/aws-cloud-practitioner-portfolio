@@ -1,9 +1,11 @@
 # Project 1 – Architecture
 
-User Browser (HTTPS)  
-↓  
-Amazon CloudFront (CDN, HTTPS enforced)  
-↓  
-Origin Access Control (OAC – signed requests)  
-↓  
-Amazon S3 (Private Bucket – no public access)
+User (Browser)
+        ↓
+Amazon CloudFront (CDN, HTTPS)
+        ↓
+Origin Access Control (OAC)
+        ↓
+Private Amazon S3 Bucket
+        ↓
+Static Website Files (HTML, Static Assets including PDF Resume)
