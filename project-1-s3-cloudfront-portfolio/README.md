@@ -82,8 +82,7 @@ project-1-s3-cloudfront-portfolio/
 ├── notes.md
 └── src/
     └── index.html
-'''
-
+``` 
 📄 Website source file:  
 👉 [src/index.html](src/index.html)
 
