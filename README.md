@@ -46,36 +46,49 @@ https://www.linkedin.com/in/mahalakshmi-profile
 
 ```mermaid
 graph TD
-    A[aws-cloud-practitioner-portfolio] --> B[README.md]
-    A --> P1[project-1-ec2-s3-iam-webhosting]
-    A --> P2[project-2-s3-cloudfront-secure-website]
-    A --> P3[project-3-cloudwatch-monitoring-alerts]
-    A --> P4[project-4-serverless-api-lambda-vpc]
+    A[aws-cloud-practitioner-portfolio] --> R[README.md]
+    A --> P1[project-1-s3-cloudfront-portfolio]
+    A --> P2[project-2-serverless-vpc-api]
+    A --> P3[project-3-cloud-security-observability]
+    A --> P4[project-4-linux-notes-tracker]
     A --> L[LICENSE]
 
+    %% Project 1
     P1 --> P1R[README.md]
-    P1 --> P1A[architecture-diagram.md]
+    P1 --> P1A[architecture.md]
     P1 --> P1S[steps.md]
-    P1 --> P1SRC[src]
-    P1SRC --> HTML[index.html]
-    P1SRC --> UD[userdata.sh]
     P1 --> P1N[notes.md]
 
+    %% Project 2
     P2 --> P2R[README.md]
-    P2 --> P2A[architecture-diagram.md]
+    P2 --> P2A[architecture.md]
     P2 --> P2S[steps.md]
     P2 --> P2N[notes.md]
 
+    %% Project 3
     P3 --> P3R[README.md]
-    P3 --> P3A[architecture-diagram.md]
+    P3 --> P3A[architecture.md]
     P3 --> P3S[steps.md]
     P3 --> P3N[notes.md]
+    P3 --> SS[screenshots]
 
+    SS --> DSH[dashboards]
+    DSH --> D1[cloudwatch-dashboard-1.png]
+    DSH --> D2[cloudwatch-dashboard-2.png]
+
+    SS --> LL[lambda-logs]
+    LL --> L1[lambda-logs.png]
+    LL --> L2[lambda-execution-logs.png]
+
+    SS --> CA[cloudwatch-alarms]
+    CA --> C1[cloudwatch-alarms.png]
+
+    SS --> DB[dynamodb-audit-records]
+    DB --> DB1[dynamodb-audit-records.png]
+
+    %% Project 4
     P4 --> P4R[README.md]
-    P4 --> P4A[architecture-diagram.md]
-    P4 --> P4S[steps.md]
-    P4 --> LAMBDA[lambda]
-    LAMBDA --> PY[lambda_function.py]
+    P4 --> P4C[commands.md]
     P4 --> P4N[notes.md]
 ```
 
