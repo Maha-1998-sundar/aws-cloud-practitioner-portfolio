@@ -44,52 +44,63 @@ https://www.linkedin.com/in/mahalakshmi-profile
 
 ## 📁 Repository Structure
 
-```mermaid
-graph TD
-    A[aws-cloud-practitioner-portfolio] --> R[README.md]
-    A --> P1[project-1-s3-cloudfront-portfolio]
-    A --> P2[project-2-serverless-vpc-api]
-    A --> P3[project-3-cloud-security-observability]
-    A --> P4[project-4-linux-notes-tracker]
-    A --> L[LICENSE]
-
-    %% Project 1
-    P1 --> P1R[README.md]
-    P1 --> P1A[architecture.md]
-    P1 --> P1S[steps.md]
-    P1 --> P1N[notes.md]
-
-    %% Project 2
-    P2 --> P2R[README.md]
-    P2 --> P2A[architecture.md]
-    P2 --> P2S[steps.md]
-    P2 --> P2N[notes.md]
-
-    %% Project 3
-    P3 --> P3R[README.md]
-    P3 --> P3A[architecture.md]
-    P3 --> P3S[steps.md]
-    P3 --> P3N[notes.md]
-    P3 --> SS[screenshots]
-
-    SS --> DSH[dashboards]
-    DSH --> D1[cloudwatch-dashboard-1.png]
-    DSH --> D2[cloudwatch-dashboard-2.png]
-
-    SS --> LL[lambda-logs]
-    LL --> L1[lambda-logs.png]
-    LL --> L2[lambda-execution-logs.png]
-
-    SS --> CA[cloudwatch-alarms]
-    CA --> C1[cloudwatch-alarms.png]
-
-    SS --> DB[dynamodb-audit-records]
-    DB --> DB1[dynamodb-audit-records.png]
-
-    %% Project 4
-    P4 --> P4R[README.md]
-    P4 --> P4C[commands.md]
-    P4 --> P4N[notes.md]
+```text
+aws-cloud-practitioner-portfolio/
+│
+├── README.md
+│   └── Master portfolio overview, projects summary
+│
+├── project-1-s3-cloudfront-portfolio/
+│   ├── README.md
+│   │   └── Project overview and live demo
+│   ├── architecture.md
+│   │   └── S3 + CloudFront architecture
+│   ├── steps.md
+│   │   └── Deployment steps (AWS Console)
+│   └── notes.md
+│       └── Key learnings and best practices
+│
+├── project-2-serverless-vpc-api/
+│   ├── README.md
+│   │   └── Serverless API overview
+│   ├── architecture.md
+│   │   └── Private Lambda + API Gateway design
+│   ├── steps.md
+│   │   └── VPC, Lambda, API Gateway setup
+│   └── notes.md
+│       └── Security and networking notes
+│
+├── project-3-cloud-security-observability/
+│   ├── README.md
+│   │   └── Security & observability command center
+│   ├── architecture.md
+│   │   └── Monitoring & alerting architecture
+│   ├── steps.md
+│   │   └── CloudWatch, Lambda, DynamoDB setup
+│   ├── notes.md
+│   │   └── Observability and security insights
+│   └── screenshots/
+│       ├── dashboards/
+│       │   ├── cloudwatch-dashboard-1.png
+│       │   └── cloudwatch-dashboard-2.png
+│       ├── lambda-logs/
+│       │   ├── lambda-logs.png
+│       │   └── lambda-execution-logs.png
+│       ├── cloudwatch-alarms/
+│       │   └── cloudwatch-alarms.png
+│       └── dynamodb-audit-records/
+│           └── dynamodb-audit-records.png
+│
+├── project-4-linux-notes-tracker/
+│   ├── README.md
+│   │   └── Linux notes tracker overview
+│   ├── commands.md
+│   │   └── Common Linux commands reference
+│   └── notes.md
+│       └── Linux concepts and learning notes
+│
+└── LICENSE
+    └── MIT License
 ```
 
 ---
