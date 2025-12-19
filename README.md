@@ -14,7 +14,7 @@ This repository is aligned with **entry-level Cloud / DevOps / Cloud Operations 
 
 ## 👩‍💻 About Me
 
-**Mahalakshmi Sundara Mahalingam**  
+**Mahalakshmi S**  
 Cloud Engineer (Entry level) 
 
 - AWS Certified Cloud Practitioner with hands-on AWS projects  
