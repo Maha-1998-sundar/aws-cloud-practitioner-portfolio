@@ -31,6 +31,7 @@ https://www.linkedin.com/in/mahalakshmi-profile
 
 ## 📑 Table of Contents
 
+- [Repository Structure](#respository-structure)
 - [Projects Overview](#projects-overview)
 - [Project 1 — Website Deployment](#project-1--personal-portfolio-website-deployment-aws-s3--cloudfront)
 - [Project 2 — Serverless API](#project-2--serverless-vpc-api-private-lambda--api-gateway)
