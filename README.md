@@ -37,7 +37,7 @@ https://www.linkedin.com/in/mahalakshmi-profile
 - [Project 2 — Serverless API](#project-2--serverless-vpc-api-private-lambda--api-gateway)
 - [Project 3 — Cloud Security & Observability](#project-3--cloud-security--observability-command-center)
 - [Project 4 — Linux Notes Tracker](#project-4--linux-notes-tracker-with-git--github)
-- [Skills Demonstrated](#skills-demonstrated)
+- [Technical Skills](#Technical-Skills)
 - [Certifications](#certifications)
 - [License](#license)
 
@@ -214,8 +214,6 @@ using Git and GitHub.
 ---
 
 ## 🧠 Technical Skills
-
-## 🧠 Skills Demonstrated
 
 ### ✔ Compute
 - Amazon EC2 (Linux-based hosting)
