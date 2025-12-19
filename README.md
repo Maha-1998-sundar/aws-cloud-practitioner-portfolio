@@ -213,23 +213,31 @@ using Git and GitHub.
 
 ---
 
+## 🧠 Technical Skills
+
 ## 🧠 Skills Demonstrated
 
 ### ✔ Compute
 - Amazon EC2 (Linux-based hosting)
-- Apache Web Server
 - AWS Lambda (Serverless compute)
+- Auto Scaling (basic understanding)
 
 ### ✔ Storage
-- Amazon S3 buckets
-- Static website hosting
-- Secure private buckets with policies
+- Amazon S3 (object storage)
+- Static website hosting using S3
+- Secure private S3 buckets with bucket policies
 
 ### ✔ Networking
-- Amazon CloudFront (CDN)
-- Virtual Private Cloud (VPC)
-- Private subnets
-- API Gateway HTTPS endpoints
+- Amazon VPC
+- Subnetting
+- Security Groups
+- Route Tables
+- Network ACLs (NACLs)
+- Internet Gateway (IGW)
+- NAT Gateway (basic understanding)
+- Amazon API Gateway (HTTPS endpoints)
+- Amazon CloudFront (Content Delivery Network)
+- VPN (basic understanding)
 
 ### ✔ Security
 - AWS IAM users and roles
@@ -237,6 +245,8 @@ using Git and GitHub.
 - Least-privilege access control
 - S3 bucket policies
 - Secure service-to-service permissions
+- AWS CloudTrail
+- AWS Trusted Advisor (basic awareness)
 
 ### ✔ Monitoring & Alerts
 - Amazon CloudWatch metrics
@@ -244,6 +254,31 @@ using Git and GitHub.
 - EC2 CPU utilization alarms
 - SNS email notifications
 - Basic observability dashboards
+
+### ✔ Databases
+- MySQL
+- Amazon RDS (basic)
+- Amazon DynamoDB (basic)
+
+### ✔ Programming & Scripting
+- Python (basics)
+- SQL (basics)
+- Linux Shell Scripting (beginner)
+
+### ✔ Linux & Operating Systems
+- Linux (Ubuntu, Amazon Linux)
+- Windows OS
+
+### ✔ Version Control
+- Git
+- GitHub
+
+### ✔ Productivity & Tools
+- Microsoft Excel
+- Microsoft Word
+- Microsoft PowerPoint
+- Zoho CRM
+- Medics Easy
 
 ---
 
