@@ -19,10 +19,13 @@ Cloud Engineer (Entry level)
 
 - AWS Certified Cloud Practitioner with hands-on AWS projects  
 - Strong foundation in **AWS, Linux, Git/GitHub, monitoring, and security**  
-- Transitioning from a non-IT background into Cloud Engineering  
+- Transitioning from a non-IT background into Cloud Engineering
+
+📧 **Email**:  
+[lakshmisundar2020@gmail.com](mailto:lakshmisundar2020@gmail.com)
 
 🔗 **LinkedIn**:  
-https://www.linkedin.com/in/mahalakshmi-profile  
+https://www.linkedin.com/in/mahalakshmi-profile
 
 ---
 
@@ -36,6 +39,45 @@ https://www.linkedin.com/in/mahalakshmi-profile
 - [Skills Demonstrated](#skills-demonstrated)
 - [Certifications](#certifications)
 - [License](#license)
+
+---
+
+## 📁 Repository Structure
+
+```mermaid
+graph TD
+    A[aws-cloud-practitioner-portfolio] --> B[README.md]
+    A --> P1[project-1-ec2-s3-iam-webhosting]
+    A --> P2[project-2-s3-cloudfront-secure-website]
+    A --> P3[project-3-cloudwatch-monitoring-alerts]
+    A --> P4[project-4-serverless-api-lambda-vpc]
+    A --> L[LICENSE]
+
+    P1 --> P1R[README.md]
+    P1 --> P1A[architecture-diagram.md]
+    P1 --> P1S[steps.md]
+    P1 --> P1SRC[src]
+    P1SRC --> HTML[index.html]
+    P1SRC --> UD[userdata.sh]
+    P1 --> P1N[notes.md]
+
+    P2 --> P2R[README.md]
+    P2 --> P2A[architecture-diagram.md]
+    P2 --> P2S[steps.md]
+    P2 --> P2N[notes.md]
+
+    P3 --> P3R[README.md]
+    P3 --> P3A[architecture-diagram.md]
+    P3 --> P3S[steps.md]
+    P3 --> P3N[notes.md]
+
+    P4 --> P4R[README.md]
+    P4 --> P4A[architecture-diagram.md]
+    P4 --> P4S[steps.md]
+    P4 --> LAMBDA[lambda]
+    LAMBDA --> PY[lambda_function.py]
+    P4 --> P4N[notes.md]
+```
 
 ---
 
@@ -148,20 +190,52 @@ using Git and GitHub.
 
 ## 🧠 Skills Demonstrated
 
-- AWS Cloud Fundamentals
-- S3, CloudFront, Lambda, API Gateway
-- VPC, IAM, CloudWatch, DynamoDB
-- Monitoring & Observability
-- Linux (Ubuntu)
-- Git & GitHub workflows
-- Documentation with Markdown
-- Cloud security best practices
+### ✔ Compute
+- Amazon EC2 (Linux-based hosting)
+- Apache Web Server
+- AWS Lambda (Serverless compute)
+
+### ✔ Storage
+- Amazon S3 buckets
+- Static website hosting
+- Secure private buckets with policies
+
+### ✔ Networking
+- Amazon CloudFront (CDN)
+- Virtual Private Cloud (VPC)
+- Private subnets
+- API Gateway HTTPS endpoints
+
+### ✔ Security
+- AWS IAM users and roles
+- IAM execution roles
+- Least-privilege access control
+- S3 bucket policies
+- Secure service-to-service permissions
+
+### ✔ Monitoring & Alerts
+- Amazon CloudWatch metrics
+- CloudWatch logs
+- EC2 CPU utilization alarms
+- SNS email notifications
+- Basic observability dashboards
+
+---
+
+## 🎯 Learning Outcomes
+
+- Practical AWS console experience
+- Real-world cloud architecture understanding
+- Secure and monitored deployments
+- Strong Linux + Git fundamentals
+- Documentation-driven development
+- Portfolio-ready cloud projects
 
 ---
 
 ## 🎓 Certifications
 
-- **AWS Certified Cloud Practitioner (CLF-C02)**
+- **AWS Certified Cloud Practitioner (CLF-C02)** - Score: **967 / 1000**
 - AWS re/Start Graduate (TNSDC)
 - Multi-Cloud Workshop
 - Multi-Cloud + DevOps with AI Bootcamp
@@ -173,6 +247,4 @@ using Git and GitHub.
 This repository is licensed under the **MIT License**.  
 Free to use for learning and portfolio purposes.
 
----
-
-⭐ *Recruiters: Please explore each project folder for detailed documentation, architecture diagrams, screenshots, and deployment steps.*
+⭐ *Recruiters: Each project folder contains detailed README, architecture diagrams, deployment steps, and notes.*
